@@ -1,0 +1,45 @@
+
+nav {
+    background-color: rgb(78, 78, 78); 
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav div {
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 200px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.left{
+  float: left;
+  width: 30%;
+  height: 800px;
+}
+
+.right{
+  float: right;
+  width: 70%;
+  height: 800px;
+}
+
+
+.borderblock{
+  padding: 25px;
+  border-style: solid;
+  width: 300px;
+}
+
+
+.relative {
+  background-color: lightblue;
+  height: 800px;
+  display: flex;
+  position: relative;
+}
+
